@@ -7,7 +7,7 @@ public class PerfectNum
         Scanner s = new Scanner(System.in);
         System.out.print("Enter any integer you want to check:");
         n = s.nextInt();
-        for(int i = 1; i < n; i++)
+        for(int i = 1; i <= n/2; i++)
         {
             if(n % i == 0)
             {
